@@ -3,7 +3,8 @@
 ### Check this [api](https://link.sopu.live/wp-json/page/slug/home)
 https://link.sopu.live/wp-json/page/slug/home
 
-####Init rest api using [action hook](https://developer.wordpress.org/reference/functions/add_action/) first and use [register_route](https://developer.wordpress.org/reference/functions/register_rest_route/) function for register custom endpoint for rest api 
+
+####Init rest api using [action hook](https://developer.wordpress.org/reference/functions/add_action/) first and use [register_route](https://developer.wordpress.org/reference/functions/register_rest_route/) function for register custom endpoint for rest api. Write all the code in function.php file
 ```
 add_action('rest_api_init', function () {
 
